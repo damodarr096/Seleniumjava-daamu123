@@ -17,7 +17,7 @@ public class ThreeTest extends Base {
 		driver = initializeDriver();	
 		driver.get("https://www.google.com/");		
 		System.out.println(driver.getTitle());
-//		Assert.assertTrue(false);
+		Assert.assertTrue(false);
 		Thread.sleep(2000);
 //		driver.quit();
 	}
